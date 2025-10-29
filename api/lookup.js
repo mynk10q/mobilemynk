@@ -27,3 +27,5 @@ export default async function handler(req, res) {
     res.status(500).json({ error: "Upstream error", message: err.message, api: "by mynk" });
   }
 }
+
+api offf kr di sari 
