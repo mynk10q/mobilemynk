@@ -19,7 +19,7 @@ export default async function handler(req, res) {
 
     res.status(200).json({
       api: "by mynk",
-      key: "apimynk",
+      key: "onlymynk",
       source: "demon.taitanx.workers.dev",
       data: parsed
     });
